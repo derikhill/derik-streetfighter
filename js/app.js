@@ -1,14 +1,15 @@
 $(document).ready(function() {
 	playTheme();
+
 	$('.ryu').mouseenter(function() {
 		$('.ryu-still').hide();
 		$('.ryu-ready').show();
-		$('.instructions').show();
+		$('.commands').show();
 	})
 	.mouseleave(function() {
 		$('.ryu-ready').hide();
+		$('.commands').hide();
 		$('.ryu-still').show();
-		$('.instructions').hide();
 	})
 	.mousedown(function() {
 		playHadouken();
@@ -53,5 +54,5 @@ $(document).ready(function() {
 	$('#theme-music') [0].volume = 0.4;
 	$('#theme-music') [0].load();
 	$('#theme-music') [0].play();
-	}
+	};
 });	

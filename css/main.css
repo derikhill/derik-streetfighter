@@ -12,6 +12,15 @@ body {
 	height: 500px;
 }
 
+.intro {
+	font-family: arial;
+	font-size: 48px;
+	color: white;
+	position: relative;
+	float: right;
+	left: -50px;
+}
+
 .ryu {
 	float: left;
 }
@@ -45,14 +54,17 @@ body {
 	background-repeat: no-repeat;
 }
 
-li {
-	font-family: sans-serif;
-	font-size: 28px;
-	position: relative;
-	float: left;
-	color: red;
-	top:-67px;	
+.commands {
+	background-image: url('../images/command.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 120px;
+	position: absolute;
+	float: right;
+	left: 700px;
+	top: 176px;
 }
+
 .hadouken {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
