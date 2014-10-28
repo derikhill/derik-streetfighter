@@ -54,5 +54,7 @@ $(document).ready(function() {
 	$('#theme-music') [0].volume = 0.4;
 	$('#theme-music') [0].load();
 	$('#theme-music') [0].play();
+	$('.title1').fadeIn(3000);
+		$(this).fadeOut(1500);
 	};
 });	
